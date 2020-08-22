@@ -1,0 +1,7 @@
+{
+  "name": "lequyettien-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
