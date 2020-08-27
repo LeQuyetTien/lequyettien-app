@@ -57,4 +57,30 @@ git push
 ng add @angular/pwa
 ```
 
+## Service Worker configuration
+
 # Deploy to Firebase Hosting
+
+## Firebase
+
+Firebase hosting provides many benefits for Progressive Web Apps, including fast response times thanks to CDNs, HTTPS enabled by default, and support for [HTTP2 push](https://firebase.googleblog.com/2016/09/http2-comes-to-firebase-hosting.html).
+
+First, if not already available, [create the project](https://console.firebase.google.com/) in Firebase.
+
+Next, in a Terminal, install the Firebase CLI:
+
+```cmd
+npm install -g firebase-tools
+```
+
+```cmd
+firebase init
+```
+
+```cmd
+ionic build --prod
+```
+
+```cmd
+firebase deploy
+```
