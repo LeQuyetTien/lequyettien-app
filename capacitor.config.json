@@ -1,5 +1,5 @@
 {
-  "appId": "io.ionic.starter",
+  "appId": "dev.tien.lequyettienapp",
   "appName": "lequyettien-app",
   "bundledWebRuntime": false,
   "npmClient": "npm",
